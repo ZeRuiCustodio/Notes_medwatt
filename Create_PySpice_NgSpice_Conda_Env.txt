@@ -1,0 +1,28 @@
+Create anaconda environment and install PySpice and NgSpice
+
+Open Anaconda prompt terminal
+conda create -n pyspice_ex
+conda activate pyspice_ex
+conda install -c conda-forge pyspice_ex
+conda install -c conda-forge ngspice ngspice-lib
+conda list
+conda install -c conda-forge pandas
+conda install -c conda-forge sympy
+conda install ipykernel
+ipython kernel install --user --name=pyspice_ex
+
+
+
+#%%
+# pip install openpyxl
+# pip install numpy
+# pip install sympy
+# pip install control
+# pip install slycot
+# pip install scipy
+# pip install pandas 
+# import matplotlib as mpl
+# import matplotlib.pyplot as plt
+# import numpy as np
+# import pandas as pd
+# import os
